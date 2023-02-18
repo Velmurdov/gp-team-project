@@ -131,6 +131,42 @@ border-radius: 25px;
     height: 194px;
 }
 
+
+.triple-wrapper-btns-list {
+display: flex;
+justify-content: flex-end;
+    
+  }
+  
+  .triple-arrow-btns {
+    display: flex;
+    column-gap: 32px;
+  }
+  
+  .triple-arrow-btn {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    visibility: hidden;
+  }
+  
+  .triple-arrow-btn-icon {
+    visibility: visible;
+    fill: #000000;
+    transition: fill 250ms linear;
+  }
+  
+  .triple-arrow-btn-icon:hover,
+  .triple-arrow-btn-icon:focus,
+  .triple-arrow-btn-icon:active {
+    fill: var(--accent-yellow-color);
+  }
+
 /* -------------------------- MEDIA ZAPIT ------------------------------- */
 
 @media screen and (min-width: 414px) {
@@ -253,6 +289,14 @@ border-radius: 25px;
         display: flex;
         gap: 40px;
     }
+
+    .triple-wrapper-btns-list {
+        margin-top: 32px;
+        margin-right: 40px;
+        
+        justify-content: center;
+            
+          }
 }
 
 
@@ -262,7 +306,7 @@ border-radius: 25px;
 
 @media screen and (min-width: 1200px) {
     .container {
-        width: 1128px;
+        min-width: 1128px;
       }
 
       .triple-number {
@@ -305,6 +349,14 @@ border-radius: 25px;
         margin-top: 188px;
         margin-left: 396px;
     }
+
+    .triple-wrapper-btns-list {
+        margin-top: 40px;
+      
+        margin-right: 330px;
+        justify-content: end;
+            
+          }
 }
    
 
