@@ -1,7 +1,7 @@
 /* -------------------------- TRIPLE NUMBER ------------------------------- */
 
 .triple-number {
-    padding-bottom: 112px;
+    padding-bottom: 32px;
     background-color: #F0ECD6;
     
 }
@@ -196,7 +196,7 @@ justify-content: flex-end;
     }
 
     .triple-number {
-        padding-bottom: 104px;
+        padding-bottom: 40px;
         background-color: #F0ECD6;
     }
    
@@ -317,7 +317,7 @@ justify-content: flex-end;
       }
 
       .triple-number {
-        padding-bottom: 112px;
+        padding-bottom: 40px;
         background-color: #F0ECD6;   
     }
    
