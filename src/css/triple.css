@@ -36,7 +36,7 @@ flex-direction: column;
 
 }
 .triple-number-pre-title {
-    margin-left: auto;
+    text-align: center;
     margin-bottom: 8px;
 
     font-family: 'Times New Roman';
@@ -213,7 +213,7 @@ justify-content: flex-end;
         padding-top: 66px;
     }
     .triple-number-pre-title {
-        margin-left: auto;
+        text-align: end;
         margin-bottom: 4px;
     
         font-family: 'Times New Roman';
@@ -225,7 +225,7 @@ justify-content: flex-end;
     color: #B4B4B4;
     }
     .triple-number-logo {
-        margin-left: auto;
+        text-align: end;
         margin-bottom: 62px;
     
         font-family: 'FilmP3'sans-serif;
@@ -239,7 +239,7 @@ justify-content: flex-end;
     color: #494848;
     }
     .triple-number-title {
-        margin-left: auto;
+        text-align: end;
         margin-bottom: 16px;
     
     font-size: 30px;
@@ -334,7 +334,7 @@ justify-content: flex-end;
     
     .triple-number-top-wrap {
         padding-top: 72px;
-       margin-left: auto;
+       
     }
     .triple-number-logo {
         margin-bottom: 73px;
@@ -354,12 +354,11 @@ justify-content: flex-end;
     }
     .triple-number-images {
         margin-top: 188px;
-        margin-left: 396px;
+        margin-left: 266px;
     }
 
     .triple-wrapper-btns-list {
         margin-top: 40px;
-      
         margin-right: 330px;
         justify-content: end;
             
